@@ -1,0 +1,143 @@
+body{
+    font-family: 'Roboto', sans-serif;
+    margin: 0;
+    padding: 0;
+    width: 100vw;
+}
+
+
+#navbarLable{
+    display: flex;
+    align-items: center;
+    margin: 5px;
+    font-size:20px ;
+    padding: 10px;
+}
+
+.navbardiv{
+    width: 100vw;
+    height: 40px;
+    position: sticky;
+    background-color:#343A40 ;
+    color: #FFFFFF;
+    display: flex;
+    flex-wrap: nowrap;
+    flex-direction: row;  
+    align-items: center ;
+    justify-content: space-between;
+}
+
+.headerLeftSide {
+    display: flex;
+    font-size: 20px;
+    flex-direction: row; 
+    align-items: center ;
+}
+
+.headerLeftSide div{
+    margin: 5px;
+}
+.headerRightSide form{
+    display: flex;
+    font-size: 20px;
+    flex-direction: row; 
+}
+
+
+#link{
+    color:  rgba(255, 255, 255, 0.5);
+}
+
+#disabled{
+    color: rgba(255, 255, 255, 0.25);
+}
+
+#dropdown{
+    color: rgba(255, 255, 255, 0.5);
+}
+
+#searchDiv{
+    width: 200px;
+    height: 38px;
+    background-color: #FFFFFF;
+    box-sizing: border-box;
+    color: #6C757D;
+    border: 1px solid;
+    border-radius: 4px;
+    display: flex;
+    align-items: center;
+    padding-left: 5px;
+}
+
+#mySearchButton{
+    color: #28A745;
+    border: 1px solid ;
+    border-radius: 4px;
+    background-color:#343A40 ;
+    width: 76.7px;
+    height: 38px;
+}
+
+hr{
+    border-width: 4.79688px 4.79688px 0px 4.79688px;
+    border-style: solid;
+    border-color: rgba(255, 255, 255, 0.5);
+}
+
+
+
+.main{
+    background-color: #E9ECEF;
+    display: flex;
+    padding: 50px;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+    width: 100vw;
+}
+
+.main button{
+    width: 152.97px;
+    height: 48px;
+    left: 15px;
+    background: #007BFF;
+    border: 1px solid #007BFF;
+    border-radius: 4.8px;
+    color: #FFFFFF;
+    font-size: 20px;
+}
+
+#helloWorld{
+    font-size: 50px;
+    margin: 0;
+}
+
+.details{
+    display: flex;
+    padding: 50px;
+    justify-content: space-evenly;
+    width: 100vw;
+}
+
+.details h1{
+    font-size: 32px;
+    color: #212529;
+
+}
+.details p{
+    display: flex;
+
+}
+
+.details button{
+    background-color: #6C757D;
+    color: #FFFFFF;
+    width: 124.44px;
+    height: 38px;
+    border: 1px solid;
+    border-radius: 4px;
+}
+
+footer{
+    display: flex;
+    align-items: flex-start;
+}
