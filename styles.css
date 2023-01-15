@@ -122,10 +122,9 @@ hr{
 }
 
 .details{
-    display: flex;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
     padding: 50px;
-    justify-content: space-evenly;
-    width: 100%;
 }
 
 .details h1{
@@ -156,9 +155,10 @@ footer{
     justify-content: flex-start;
 }
 
-@media only screen and (max-width:350px){
-    .details{
-        flex-wrap: wrap;
+@media only screen and (max-width:400px){
+    .details{   
+        grid-template-rows: repeat(3, 1fr);
+        grid-template-columns: 1fr;
     }
     .navbardiv{
         display: block;
